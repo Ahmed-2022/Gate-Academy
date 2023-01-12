@@ -13,7 +13,7 @@ setInterval(function(){
 
 
 $("#owl-one").owlCarousel({
-    navText: ['<i class="fa-solid fa-arrow-left-long Tired_r"></i>', '<i class="fa-solid fa-arrow-right Tired_l"></i>'],
+    navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
     lazyLoad: true,
 
       loop:true,
@@ -35,7 +35,7 @@ $("#owl-one").owlCarousel({
 });
 // owl two
 $("#owl-two").owlCarousel({
-      navText: ['<i class="fa-solid fa-arrow-left-long Tired_r"></i>', '<i class="fa-solid fa-arrow-right Tired_l"></i>'],
+    navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
     // 
       loop:true,
     nav:true,
@@ -124,7 +124,7 @@ let Timer = setInterval(function(){
      $(".TimeDown .Minutes p").html(Minutes);
      $(".TimeDown .Seconds p").html(Seconds);
     
-    if(Seconds <= 0){
+    if(Seconds < 0){
         clearInterval(Timer);
         $(".TimeDown").hide();
         $(".TimeDown").html("<p class='alert alert-danger fs-3 mt-4' >There are no discounts at the moment</p>").toggle();

@@ -525,6 +525,7 @@ Start section POPULAR COURSES
     width: 18rem;
     overflow: hidden;
     border-radius: 7px;
+    box-shadow: 0px 0px 4px 0px rgb(96 96 96 / 54%);
 }
     #section_04 .Parent_Card .Egineers img{
     max-width: 40px;
@@ -575,21 +576,23 @@ Start section POPULAR COURSES
     justify-content: center;
 }
 #section_04 .owl-carousel .owl-nav .owl-prev{
-    padding: 8px !important;
+    padding: 10px 12px !important;
     background-color: var(--color2);
     text-align: center;
     display: flex;
     align-items: center;
     color: white;
     margin-right: 13px;
+    border-radius: 50%;
 }
 #section_04 .owl-carousel .owl-nav .owl-next{
-    padding: 8px !important;
+    padding: 10px 12px !important;
     background-color: var(--color2);
     text-align: center;
     display: flex;
     align-items: center;
     color: white;
+    border-radius: 50%;
 }
 /*******************
 start Our Top Categories section
@@ -842,8 +845,10 @@ start Events and last news
 #section_07 .container{
     max-width: 90%;
     margin-left: auto ;
-    margin-right: auto ;
-    
+    margin-right: auto ;   
+}
+#section_07 .Events .card{
+    box-shadow: 0px 0px 4px 0px rgba(96, 96, 96, 0.54);
 }
 #section_07 .Events .owl-carousel.owl-drag .owl-item {
 
@@ -925,7 +930,8 @@ start Events and last news
     border: none;
     width: 25rem;
     align-items: center;
-
+    box-shadow: 0px 0px 3px 0px rgb(96 96 96 / 54%);
+    margin: 3px;
 }
 #section_07 .LastNews .card img{
     height: 110px;
@@ -970,21 +976,23 @@ start Events and last news
     margin-top: 15px;
 }
 #section_07 .owl-carousel .owl-nav .owl-prev {
-    padding: 8px !important;
+    padding: 10px 12px !important;
     background-color: var(--color2);
     text-align: center;
     display: flex;
     align-items: center;
     color: white;
     margin-right: 13px;
+    border-radius: 50%;
 }
 #section_07 .owl-carousel .owl-nav .owl-next {
-    padding: 8px !important;
+    padding: 10px 12px !important;
     background-color: var(--color2);
     text-align: center;
     display: flex;
     align-items: center;
     color: white;
+    border-radius: 50%;
 }
 
 /*******************
