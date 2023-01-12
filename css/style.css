@@ -355,7 +355,13 @@ Start style Tilte_Section index
 Start style about-us index
 ******************
 */
-
+    html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+    opacity: 1;
+    }
+    html:not(.no-js) [data-aos=fade-up] {
+    -webkit-transform: translate3d(0,0,0); 
+    transform: translate3d(0,0,0);
+    }
 
 #section_03{
     /* background-color: var(--color5); */
@@ -1728,6 +1734,14 @@ start section contact-us
     #connect_us .title_Company .datiles_Company .col-12{
         margin-bottom: 25px;
      
+    }
+    /* start paly animat java fad-up in screen xl */
+    html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    }
+    html:not(.no-js) [data-aos=fade-up] {
+    -webkit-transform: translate3d(0,100px,0); 
+    transform: translate3d(0,100px,0);
     }
 
 }
