@@ -107,7 +107,7 @@ $("#owl-four").owlCarousel({
 // disable right click and ctrl u
 //Creating a Countdown Timer
 
-let Countdown = new Date("february 10, 2023 16:02:25").getTime();
+let Countdown = new Date("september 11, 2023 16:02:25").getTime();
 
 let Timer = setInterval(function(){
  
